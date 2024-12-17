@@ -7,7 +7,7 @@ public class MainActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        System.out.println("667");
+        System.out.println("668");
         // 添加注释
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
