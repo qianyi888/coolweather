@@ -3,13 +3,12 @@ package com.coolweather.android;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class MainActivity2 extends AppCompatActivity {
+public class NewMainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        System.out.println("668");
-        // 添加注释
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        System.out.println("新增类测试");
     }
 }

@@ -56,6 +56,7 @@ public class ChooseAreaFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        System.out.println();
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.choose_area, container, false);
         titleText = view.findViewById(R.id.title_text);
@@ -191,6 +192,7 @@ public class ChooseAreaFragment extends Fragment {
         });
     }
     private void showProgressDialog(){
+        System.out.println();
         if(progressDialog == null){
             progressDialog = new ProgressDialog(getActivity());
             progressDialog.setMessage("正在加载。。。。");
